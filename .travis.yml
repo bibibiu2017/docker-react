@@ -1,0 +1,6 @@
+sudo: required
+services:
+  - docker
+
+before_install:
+  - docker build -t bibibiu/docker-react - f Dockerfile.dev .  
