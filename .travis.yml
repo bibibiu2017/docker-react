@@ -3,7 +3,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t bibibiu/docker-react - f Dockerfile.dev .
+  - docker build -t bibibiu/docker-react -f Dockerfile.dev .
 
 script:
   - docker run bibibiu/docker-react npm run test -- --coverage  
