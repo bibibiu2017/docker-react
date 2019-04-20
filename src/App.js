@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Hi there I am arthur
+            I was changed on the feature brunch
           </a>
         </header>
       </div>
