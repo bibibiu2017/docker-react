@@ -11,8 +11,8 @@ script:
 deploy:
   provider: elasticbeanstalk
   region: "us-east-1"
-  app: "docker-react"
-  env: "DockerReact-env"
+  app: "Malipo-Backen-v2"
+  env: "MalipoBackenV2-env"
   bucket_name: "elasticbeanstalk-us-east-1-449297312758"
   bucket_path: "docker-react"
   on:
